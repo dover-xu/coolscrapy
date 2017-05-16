@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'coolscrapy.pipelines.ArticleDataBasePipeline': 5,
+   # 'coolscrapy.pipelines.ArticleDataBasePipeline': 5,
 }
 MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
